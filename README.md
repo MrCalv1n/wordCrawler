@@ -24,7 +24,7 @@ __      _____  _ __ __| |/ ___|_ __ __ ___      _| | ___ _ __
   \_/\_/ \___/|_|  \__,_|\____|_|  \__,_| \_/\_/ |_|\___|_|   
                                                               
 
-							                                  by MrCalv1n
+						by MrCalv1n
 
 usage: wordCrawler.py [-h] [-u URL | -r READFILE] [-d DEPTH] [-w WORDLIST]
                       [-o OUTPUTFILE]
@@ -48,6 +48,6 @@ optional arguments:
 Installation
 ------------
 
-git clone 
+git clone https://github.com/MrCalv1n/wordCrawler.git
 cd wordCrawler/
 pip3 install -r requirements.txt
