@@ -85,7 +85,7 @@ class WebSpider(object):
 def parse_args():
     parser = argparse.ArgumentParser(description='crawler for a website to find keywords')
     url = parser.add_mutually_exclusive_group()
-    url.add_argument('-u', '--url', help='specify the url to crawl')
+    url.add_argument('-u', '--url', help='specify the urls to crawl separated by commas')
     url.add_argument('-r', '--readFile', help='specify a file with urls to crawl')
     parser.add_argument('-d', '--depth', type=int, help='depth for crawl', default=1)
     parser.add_argument('-w', '--wordlist', help='path for wordlist with keywords to search for', default='wordlist.txt')
