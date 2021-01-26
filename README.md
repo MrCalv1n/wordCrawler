@@ -44,7 +44,7 @@ crawler for a website to find keywords
 
 optional arguments:
   -h, --help            show this help message and exit
-  -u URL, --url URL     specify the url to crawl
+  -u URL, --url URL     specify the urls to crawl separated by commas
   -r READFILE, --readFile READFILE
                         specify a file with urls to crawl
   -d DEPTH, --depth DEPTH
