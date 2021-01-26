@@ -1,0 +1,5 @@
+pyfiglet==0.8.post1
+argcomplete==1.12.2
+requests==2.18.4
+urllib3==1.22
+beautifulsoup4==4.9.3
