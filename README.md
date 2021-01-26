@@ -12,15 +12,15 @@ Example usage
 
 **To use it as a command-line script:**
 
-#Example with a single site to crawl
+#single site to crawl
 ```bash
      python3 wordCrawler.py -u "https://www.google.com/" -w wordlist.txt -o outputfile.txt
 ```     
-#Example with multiple sites to crawl
+#multiple sites to crawl
 ```bash
      python3 wordCrawler.py -u "https://www.google.com/,https://www.microsoft.com/" -w wordlist.txt -o outputfile.txt
 ```
-#Example with input file
+#input file with websites to crawl
 ```bash
      python3 wordCrawler.py -r FileWithSites.txt -w wordlist.txt -o outputfile.txt
 ```
