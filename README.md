@@ -12,7 +12,14 @@ Example usage
 
 **To use it as a command-line script:**
 
+#Example with a single site to crawl
      python3 wordCrawler.py -u "https://www.google.com/" -w wordlist.txt -o outputfile.txt
+     
+#Example with multiple sites to crawl
+     python3 wordCrawler.py -u "https://www.google.com/,https://www.microsoft.com/" -w wordlist.txt -o outputfile.txt
+     
+#Example with input file
+     python3 wordCrawler.py -r FileWithSites.txt -w wordlist.txt -o outputfile.txt
 
 This will create several txt files with IoCs extracted (like Bro does) and a folder ("extracted-attachments") with the attached files.
 
