@@ -25,7 +25,7 @@ Input file with websites to crawl
      python3 wordCrawler.py -r FileWithSites.txt -w wordlist.txt -o outputfile.txt
 ```
 
-This will create several txt files with IoCs extracted (like Bro does) and a folder ("extracted-attachments") with the attached files.
+**Command Options:**
 
 ```bash 
                           _  ____                    _           
